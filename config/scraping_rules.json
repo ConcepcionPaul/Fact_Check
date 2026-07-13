@@ -1,0 +1,27 @@
+{
+  "philstar.com": {
+    "title": "div.article__title h1",
+    "text": "div.article__writeup p",
+    "date": "div.article__date-published",
+    "subject": "Philstar"
+  },
+"gmanetwork.com": {
+  "title": "h1.story_links",
+  "text": "div.story_main p",
+  "date": "div.article-time time",
+  "subject": "GMA News"
+},
+
+  "nytimes.com": {
+    "title": "h1",
+    "text": "section[name='articleBody'] p, article p",
+    "date": "time",
+    "subject": "NYTimes"
+  },
+  "bbc.com": {
+    "title": "h1",
+    "text": "article p, div.ssrcss-uf6wea-RichTextComponentWrapper p",
+    "date": "time[datetime]",
+    "subject": "BBC"
+}
+}
